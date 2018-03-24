@@ -6,8 +6,7 @@ $$
 x = \frac{y}{2}
 $$
 
-zdzd
-
+This is an [hyperlink](/www.google.com):
 
 
 
