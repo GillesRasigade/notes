@@ -11,7 +11,11 @@ $$
 
 
 $$
-f(n) = \left \{ \right \}
+f(n) =
+    \left \{
+        a \\
+        b
+    \right \}
 $$
 
 ## Generator
