@@ -2,7 +2,11 @@
 
 This is an equation
 
-$$x = \frac{y}{2}$$
+$$
+x = \frac{y}{2}
+$$
+
+zdzd
 
 
 
