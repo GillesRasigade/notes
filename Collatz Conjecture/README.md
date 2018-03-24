@@ -36,7 +36,7 @@ is defined as a generator for the Syracuse problem because any number leading to
 Anytime a number $$a$$ is having the following property, the conjecture is demonstrated:
 
 $$
-\exists p \in \mathbb{N}, f(a) = g_{p}
+\exists p \in \mathbb{N}, f(a) = 3a + 1 = g_{p}
 $$
 
 
