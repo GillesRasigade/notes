@@ -21,7 +21,6 @@ $$
 The conjecture
 
 >   This process will eventually reach the number 1, regardless of which positive integer is chosen initially.
-> -- <cite>[Albert Einstein][1]</cite>
 
 
 ## Generator
