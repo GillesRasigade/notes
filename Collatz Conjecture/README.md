@@ -13,8 +13,8 @@ $$
 $$
 f(n) =
     \begin{cases}
-      1 & \text{if bank $i$ issues ABs at time $t$}\\
-      2 & \text{if bank $i$ issues CBs at time $t$}\\
+      n/2 & \text{if $n \equiv 0 \mod 2$ }\\
+      3n+1 & \text{if bank $i$ issues CBs at time $t$}\\
       0 & \text{otherwise}
     \end{cases}  
 $$
