@@ -42,7 +42,7 @@ $$
 This means that any number respecting the following equation is validating the conjecture:
 
 $$
-a = \frac{g_{p} - 1}{3}
+a = \frac{g_{p} - 1}{3} = \frac{2^p - 1}{3}
 $$
 
 
