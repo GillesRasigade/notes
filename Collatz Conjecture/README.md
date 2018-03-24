@@ -25,6 +25,13 @@ The conjecture
 
 ## Generator
 
+Any function of the form:
+
+$$
+f_{n} = 2^{n}
+$$
+
+is defined as a generator for the Syracuse problem because any number leading to a function of this form will fall down to $$1$$ after $$n$$ iterations
 
 
 ---
