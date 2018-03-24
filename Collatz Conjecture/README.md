@@ -28,7 +28,7 @@ The conjecture
 Any function of the form:
 
 $$
-f_{n} = 2^{n}
+g_{n} = 2^{n}
 $$
 
 is defined as a generator for the Syracuse problem because any number leading to a function of this form will fall down to $$1$$ after $$n$$ iterations.
@@ -36,7 +36,7 @@ is defined as a generator for the Syracuse problem because any number leading to
 Anytime a number $$a$$ is having the following property, the conjecture is demonstrated:
 
 $$
-\exists p \in \mathbb{N} f(a) =
+\exists p \in \mathbb{N}, f(a) = g_{p}
 $$
 
 
