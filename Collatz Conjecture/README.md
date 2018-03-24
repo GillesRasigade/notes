@@ -1,5 +1,7 @@
 # Collatz Conjecture
 
-## References
+This very first article [^1] is interesting.
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
+
+
+[^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
