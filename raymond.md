@@ -8,6 +8,5 @@ $$
 
 This is an [hyperlink](/www.google.com):
 
-
-
+This is in [inner link](/README.md).
 
