@@ -39,6 +39,12 @@ $$
 \exists p \in \mathbb{N}, f(a) = 3a + 1 = g_{p}
 $$
 
+This means that any number respecting the following equation is validating the conjecture:
+
+$$
+a = \frac{g_{p} - 1}{3}
+$$
+
 
 ---
 
