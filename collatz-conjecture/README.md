@@ -29,7 +29,7 @@ Any function of the form:
 
 $$
 \begin{split}
-g :\ & n \rightarrow 2^n\\
+g :\ & \mathbb{N} \rightarrow \mathbb{N}\\
    & n \rightarrow 2^n
 \end{split} 
 $$
