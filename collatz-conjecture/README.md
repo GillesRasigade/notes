@@ -28,7 +28,10 @@ The conjecture
 Any function of the form:
 
 $$
-g_{n} = 2^{n}
+\begin{split}
+g: & n \rightarrow 2^n\\
+   & n \rightarrow 2^n
+\end{split} 
 $$
 
 is defined as a generator for the Syracuse problem because any number leading to a function of this form will fall down to $$1$$ after $$n$$ iterations.
