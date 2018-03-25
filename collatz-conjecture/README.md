@@ -52,6 +52,12 @@ The question is then: is there for any number $$a \in \mathbb{N}$$, a fixed numb
 
 If this is the case, the conjecture seems to be demonstrated.
 
+## Series
+
+$$
+f^{p}(n)
+$$
+
 
 ---
 
