@@ -46,6 +46,7 @@ a = \frac{g_{p} - 1}{3} = \frac{2^p - 1}{3}
 $$
 
 
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
