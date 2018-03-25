@@ -2,7 +2,7 @@
 
 * [README](README.md)
 
-## Collatz
+## Collatz Conjecture
 
 * [Notes](./collatz-conjecture/README.md)
 
