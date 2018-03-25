@@ -39,13 +39,13 @@ is defined as a generator for the Syracuse problem because any number leading to
 Anytime a number $$a$$ is having the following property, the conjecture is demonstrated:
 
 $$
-\exists p \in \mathbb{N}, f(a) = 3a + 1 = g(p)
+\exists p \in \mathbb{N}, f(a) = 3a + 1 = \mathcal{G}(p)
 $$
 
 This means that any number respecting the following equation is validating the conjecture:
 
 $$
-a = \frac{g_{p} - 1}{3} = \frac{2^p - 1}{3}
+a = \frac{\mathcal{G}(p) - 1}{3} = \frac{2^p - 1}{3}
 $$
 
 
