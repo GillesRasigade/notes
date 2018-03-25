@@ -13,8 +13,8 @@ $$
 $$
 f(n) =
     \begin{cases}
-      n/2 & \text{if $n \equiv 0 \mod 2$ }\\
-      3n+1 & \text{if $n \equiv 1 \mod 2$ }
+      n/2 & \text{if }n \equiv 0 \mod 2\\
+      3n+1 & \text{if }n \equiv 1 \mod 2 
     \end{cases}  
 $$
 
