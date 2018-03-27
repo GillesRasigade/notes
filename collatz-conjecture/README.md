@@ -65,7 +65,6 @@ Demonstration
 
   `Written, must be copied here` 
 
-zd
 
 ---
 
