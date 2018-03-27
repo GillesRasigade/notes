@@ -30,7 +30,7 @@ Any function of the form:
 $$
 \begin{split}
 \mathcal{G} :\ & \mathbb{N} \rightarrow \mathbb{N}\\
-   & n \rightarrow 2^n
+   & a \rightarrow a \times 2^p
 \end{split} 
 $$
 
@@ -52,6 +52,7 @@ The question is then: is there for any number $$a \in \mathbb{N}$$, a fixed numb
 
 If this is the case, the conjecture seems to be demonstrated.
 
+## 
 
 ---
 
