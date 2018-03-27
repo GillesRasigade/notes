@@ -85,7 +85,6 @@ A _generator_ has several children by the application of the function $$f$$ but 
 
 The _generator_ $$\mathcal{G}_1$$ is a neutral element for the function $$f$$:
 
-
 $$
 f(\mathcal{G}_1) = \mathcal{G}_1 
 $$
