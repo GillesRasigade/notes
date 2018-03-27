@@ -71,6 +71,15 @@ Conclusion
 
 A *generator* has several children by the application of the function $$f$$ but has a single parent by the application of the same function.
 
+### Neutral element
+
+The *generator* $$\mathcal{G}_1$$ is a neutral element for the function $$f$$:
+
+$$
+f(\mathcal{G}_1) = \mathcal{G}_1
+$$
+
+
 
 
 ---
