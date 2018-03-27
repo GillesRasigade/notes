@@ -96,7 +96,11 @@ $$
 \mathcal{G}_1 = 2^p, p \in \mathbb{N}
 $$
 
-> Do we have other neutral elements for the function $$f$$?
+Questions:
+
+- Do we have other neutral elements for the function $$f$$?
+- What is the relation netral elements and cycles for the function $$f$$?
+
 
 ---
 
