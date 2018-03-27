@@ -61,6 +61,10 @@ $$
 f(\mathcal{G}_b) = \mathcal{G}_a
 $$
 
+Demonstration
+
+
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
