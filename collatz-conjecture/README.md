@@ -65,7 +65,9 @@ Demonstration
 
   `Written, must be copied here` 
 
+Conclusion
 
+A *generator* has several children by the application of the function $$f$$ but has a single parent by the application of the same function.
 
 ---
 
