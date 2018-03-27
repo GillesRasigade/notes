@@ -96,6 +96,8 @@ $$
 \mathcal{G}_1 = 2^p, p \in \mathbb{N}
 $$
 
+> Do we have other neutral elements for the function $$f$$?
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
