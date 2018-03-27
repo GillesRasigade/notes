@@ -30,7 +30,7 @@ Any function of the form:
 $$
 \begin{split}
 \mathcal{G} :\ & \mathbb{N} \rightarrow \mathbb{N}\\
-   & a \rightarrow a \times 2^p , p \in \mathbb{N}
+   & a \rightarrow a \times 2^p ,p \in \mathbb{N}
 \end{split} 
 $$
 
