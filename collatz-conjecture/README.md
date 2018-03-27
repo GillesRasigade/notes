@@ -71,6 +71,8 @@ Conclusion
 
 A *generator* has several children by the application of the function $$f$$ but has a single parent by the application of the same function.
 
+
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
