@@ -64,7 +64,7 @@ If this is the case, the conjecture seems to be demonstrated.
 
 > A _generator_ has **several** _children_ but a **single** _parent_.
 
-Does the following relation truth?
+Is the following relation truth?
 
 
 $$
