@@ -99,7 +99,7 @@ $$
 Questions:
 
 - Do we have other neutral elements for the function $$f$$?
-- Is there a relation between netral elements and cycles for the function $$f$$?
+- Is there a relation between neutral elements and cycles for the function $$f$$?
 
 
 ---
