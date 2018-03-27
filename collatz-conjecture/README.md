@@ -54,6 +54,8 @@ If this is the case, the conjecture seems to be demonstrated.
 
 ### Relation between generators
 
+> A *generator* has **several** *children* but a **single** *parent*.
+
 Does the following relation truth?
 
 $$
