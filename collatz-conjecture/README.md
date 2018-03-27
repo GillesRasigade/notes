@@ -87,13 +87,14 @@ The _generator_ $$\mathcal{G}_1$$ is a neutral element for the function $$f$$:
 
 
 $$
-f(\mathcal{G}_1) = \mathcal{G}_1
+f(\mathcal{G}_1) = \mathcal{G}_1 
 $$
 
+with
 
-sds
-
-
+$$
+\mathcal{G}_1 = 2^p, p \in \mathbb{N}
+$$
 
 ---
 
