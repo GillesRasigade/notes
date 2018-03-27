@@ -57,7 +57,8 @@ If this is the case, the conjecture seems to be demonstrated.
 Does the following relation truth?
 
 $$
-\forall b \in \mathbb{N}, \exists! a \in \mathbb{N} / f(\mathcal{G}_b) = \mathcal{G}_a
+\forall b \in \mathbb{N}, \exists! a \in \mathbb{N} / \\
+f(\mathcal{G}_b) = \mathcal{G}_a
 $$
 
 ---
