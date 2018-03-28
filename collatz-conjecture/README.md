@@ -87,19 +87,22 @@ The _generator_ $$\mathcal{G}_1$$ is a neutral element for the function $$f$$:
 
 
 $$
-f(\mathcal{G}_1) = \mathcal{G}_1 
+f(\mathcal{G}_1) = \mathcal{G}_1
 $$
 
+
 with
+
 
 $$
 \mathcal{G}_1 = 2^p, p \in \mathbb{N}
 $$
 
-Questions:
 
-- Do we have other neutral elements for the function $$f$$?
-- Is there a relation between neutral elements and cycles for the function $$f$$?
+Questions: 
+
+* Do we have other neutral elements for the function $$f$$?
+* Is there a relation between neutral elements and cycles for the function $$f$$?
 
 ---
 
