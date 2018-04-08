@@ -234,6 +234,7 @@ $$
 > **Conclusion** In the array given above, the difference between 2 values on the same row is $$2^{n+1}, n \in \mathbb{N} $$.
 
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS_0w5DdGkKzl8nc8ed4saQGhmjyqt6ohIQteiIF0Te4OLAwirT33-YuB5Vv1qn_hZPPzEHkieHsCVk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ---
 
