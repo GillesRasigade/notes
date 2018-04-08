@@ -154,10 +154,10 @@ $$
 Thus, what are accepted values of $$p$$ with the following form?
 
 $$
-\begin{split}
+\begin{array}
 f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
 & = & \frac{3 \left( n \pm 0,2 \right) 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} 
-\end{split}
+\end{array}
 $$
 
 For $$a = 3n, n \in \mathbb{N}$$
