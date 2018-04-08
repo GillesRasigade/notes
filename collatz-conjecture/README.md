@@ -276,6 +276,15 @@ $$
 \mathcal{G}_1 \supset \mathcal{G}_5 \supset \mathcal{G}_{13} \supset ... 
 $$
 
+or
+
+$$
+f(\mathcal{G}_5) = \mathcal{G}_1 \\
+f^2(\mathcal{G}_{13}) = \mathcal{G}_1 \\
+f^3(\mathcal{G}_{17} = \mathcal{G}_1 \\
+...
+$$
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
