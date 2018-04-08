@@ -231,7 +231,7 @@ $$
 \end{split}
 $$
 
-
+**Conclusion** In the array given above, the difference between 2 values on the same row is $$2^{n+1}, n \in \mathbb{N} $$.
 
 ---
 
