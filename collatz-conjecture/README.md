@@ -58,7 +58,7 @@ $$
 
 The question is then: is there for any number $$a \in \mathbb{N}$$, a fixed number of iteration for $$f$$ leading to a generator function?
 
-If this is the case, the conjecture seems to be demonstrated.
+If this is the case, the conjecture is demonstrated.
 
 ### Relation between generators
 
