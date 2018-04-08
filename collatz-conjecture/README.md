@@ -56,9 +56,9 @@ a = \frac{\mathcal{G}(p) - 1}{3} = \frac{2^p - 1}{3}
 $$
 
 
-The question is then: is there for any number $$a \in \mathbb{N}$$, a fixed number number of iteration for $$f$$ leading to a generator function?
+The question is then: is there for any number $$a \in \mathbb{N}$$, a fixed number of iteration for $$f$$ leading to a generator function?
 
-If this is the case, the conjecture seems to be demonstrated.
+If this is the case, the conjecture is demonstrated.
 
 ### Relation between generators
 
@@ -99,10 +99,112 @@ $$
 $$
 
 
-Questions: 
+Questions:
 
 * Do we have other neutral elements for the function $$f$$?
 * Is there a relation between neutral elements and cycles for the function $$f$$?
+
+#### Demonstration
+
+
+$$
+\begin{split}
+f(\mathcal{G}_a) & = & \mathcal{G} & a \in \mathbb{N} \\
+3 \times a 2^p + 1 & = & a 2^q & \implies q > p \\
+a\left( 2^q - 3 \times 2^p \right) & = & 1 \\
+a 2^p \left( 2^{q-p} - 3 \right) & = & 1 \\
+a & = & \frac{1}{2^p \left( 2^{q-p} - 3 \right)} \\
+a, p, n \in \mathbb{N} & \implies & a = 1
+\end{split}
+$$
+
+
+### Children of a generator
+
+A generator $$\mathcal{G}_a$$ is having the following children by application of the reverse function of $$f$$:
+
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+\end{split}
+$$
+
+
+What are the values of $$p$$?
+
+<!--
+| $$n$$ | $$2^n$$ | $$1$$ |$$3$$ | $$5$$ | $$7$$ | $$9$$ | $$11$$ | $$13$$ | $$15$$ | $$17$$ | $$19$$ |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+|  $$0$$ | $$1$$ |||||||||||
+-->
+
+All odd numbers can be defined with the following form:
+
+$$
+a = 3 \left( n \pm 0,2 \right), n \in \mathbb{N^*}
+$$
+
+Leading to
+
+$$
+1, 3, 5 - 7, 9, 11 - 13, 15, 17 - 19, 21, 23 - 25, 27, 29 - ...
+$$
+
+Thus, what are accepted values of $$p$$ with the following form?
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 \left( n \pm 0,2 \right) 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} 
+\end{split}
+$$
+
+For $$a = 3n, n \in \mathbb{N}$$
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 n 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} \\
+& = & n2^p - \frac{1}{3} \not\in \mathbb{N}, \forall n, p \in \mathbb{N}
+\end{split}
+$$
+
+> **Conclusion** A generator of type $$\mathcal{G}_{3k}, k \in \mathbb{N}$$ does not have any children generator.
+
+We can **thus** simplify the problem. What are values of $$p$$ for $$a = 3 \left( n \pm 2 \right), n \in \mathbb{N}$$ leading to:
+
+$$
+\frac{a 2^p - 1}{3} \in \mathbb{N}
+$$
+
+For $$a = 3n - 2, n \in \mathbb{N}$$
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 n 2^p - 2^{p+1} - 1}{3} \\
+& = & n2^p - \frac{2^{p+1} + 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k + 1, k \in \mathbb{N} \\
+\end{split}
+$$
+
+> **Conclusion** For $$a = 3n - 2, n \in \mathbb{N}$$, only values of $$p$$ of the form $$p = 2k, k \in \mathbb{N}$$ are defining valid children generators for$$\mathcal{G}_a$$.
+
+For $$a = 3n + 2, n \in \mathbb{N}$$
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 n 2^p + 2^{p+1} - 1}{3} \\
+& = & n2^p + \frac{2^{p+1} - 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k, k \in \mathbb{N} \\
+\end{split}
+$$
+
+> **Conclusion** For $$a = 3n + 2, n \in \mathbb{N}$$, only values of $$p$$ of the form $$p = 2k + 1, k \in \mathbb{N}$$ are defining valid children generators for $$\mathcal{G}_a$$.
+
+
+
+
 
 ---
 
