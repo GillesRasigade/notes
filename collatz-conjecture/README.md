@@ -142,7 +142,7 @@ What are the values of $$p$$?
 All odd numbers can be defined with the following form:
 
 $$
-a = 3 \left( n \pm 2 \right), n \in \mathbb{N^*}
+a = 3 \left( n \pm 0,2 \right), n \in \mathbb{N^*}
 $$
 
 Leading to
@@ -156,10 +156,22 @@ Thus, what are accepted values of $$p$$ with the following form?
 $$
 \begin{split}
 f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
-& = & \frac{3 \left( n \pm 2 \right) 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} 
+& = & \frac{3 \left( n \pm 0,2 \right) 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} 
 \end{split}
+$$
+
+For $$a = 3n, n \in \mathbb{N}$$
 
 $$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 n 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} \\
+& = & n2^p - \frac{1}{3} \not\in \mathbb{N}, \forall n, p \in \mathbb{N}
+\end{split}
+$$
+
+> **Conclusion** A generator of type $$\mathcal{G}_{3k}, k \in \mathbb{N}$$ does not have any children generator.
+
 
 ---
 
