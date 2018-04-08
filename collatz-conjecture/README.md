@@ -85,22 +85,27 @@ A _generator_ has several children by the application of the function $$f$$ but 
 
 The _generator_ $$\mathcal{G}_1$$ is a neutral element for the function $$f$$:
 
+
 $$
-f(\mathcal{G}_1) = \mathcal{G}_1 
+f(\mathcal{G}_1) = \mathcal{G}_1
 $$
 
+
 with
+
 
 $$
 \mathcal{G}_1 = 2^p, p \in \mathbb{N}
 $$
 
+
 Questions:
 
-- Do we have other neutral elements for the function $$f$$?
-- Is there a relation between neutral elements and cycles for the function $$f$$?
+* Do we have other neutral elements for the function $$f$$?
+* Is there a relation between neutral elements and cycles for the function $$f$$?
 
 #### Demonstration
+
 
 $$
 \begin{split}
@@ -113,16 +118,24 @@ a, p, n \in \mathbb{N} & \implies & a = 1
 \end{split}
 $$
 
+
 ### Children of a generator
 
 A generator $$\mathcal{G}_a$$ is having the following children by application of the reverse function of $$f$$:
 
+
 $$
 \begin{split}
-f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3}, p \in \mathbb{N} \\
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
 \end{split}
 $$
 
+
+What are the values of $$p$$?
+
+| $$n$$ | $$2^n$$ | $$1$$ |$$3$$ | $$5$$ | $$7$$ | $$9$$ | $$11$$ | $$13$$ | $$15$$ | $$17$$ | $$19$$ |
+| :---: | --- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+|  $$0$$ | $$1$$ |||||||||||
 
 ---
 
