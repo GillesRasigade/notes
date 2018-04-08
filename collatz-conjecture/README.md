@@ -104,7 +104,7 @@ Questions:
 
 $$
 \begin{split}
-f(\mathcal{G}_a) & = \mathcal{G}& \hfill, a \in \mathbb{N} \\
+f(\mathcal{G}_a) & = \mathcal{G} & a \in \mathbb{N} \\
 3 \times a 2^p + 1 & = a 2^q & (\implies q > p)
 \end{split}
 $$
