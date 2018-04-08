@@ -270,6 +270,12 @@ $$
 1, 5, 13, 17, 11, 7, 37, 49, 65, 43, 229, 305, 203, 541, 721, 961, 5125, 6833, 4555, 6073, 32389, ...
 $$
 
+Understanding
+
+$$
+\mathcal{G}_1 \supset \mathcal{G}_5 \supset \mathcal{G}_{13} \supset ... 
+$$
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
