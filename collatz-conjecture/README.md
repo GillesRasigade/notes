@@ -246,6 +246,15 @@ $$
 
 > **Conclusion** In both situation where $$q > p$$ or $$p > q$$, we have $$b \in \mathcal{G}_c$$ or $$c \in \mathcal{G}_b$$ leading to the conclusion than $$b = c$$.
 
+### $$\mathbb{N}$$ mapped
+
+Do we have an equivalence between each $$n \in \mathbb{N}$$?
+
+If we are observiing the arra accurately, we can extract that if any number of $$\mathbb{N}$$ can be expressed with:
+
+$$
+n = \frac{2^{2p} \left( 1 + 6q \right) - 1}{3} \text{ where } p, q \in \mathbb{N} 
+$$
 
 ---
 
