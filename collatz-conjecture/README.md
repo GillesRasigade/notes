@@ -100,6 +100,17 @@ Questions:
 - Do we have other neutral elements for the function $$f$$?
 - Is there a relation between neutral elements and cycles for the function $$f$$?
 
+#### Demonstration
+
+$$
+\begin{split}
+f(\mathcal{G}_a) & = \mathcal{G}& \hfill, a \in \mathbb{N} \\
+3 \times a 2^p + 1 & = a 2^q & (\implies q > p)
+\end{split}
+$$
+
+
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
