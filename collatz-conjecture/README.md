@@ -188,7 +188,11 @@ f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N}
 \end{split}
 $$
 
-> **Conclusion** For $$a = 3n - 2, n \in \mathbb{N}$$, only values of $$p$$ of the form $$p = 2k$$ are defining valid children generators for $$\mathcal{G}_a$$
+> **Conclusion** For $$a = 3n - 2, n \in \mathbb{N}$$, only values of $$p$$ of the form 
+> $$
+> p = 2k, k \in \mathbb{N}
+> $$ 
+> are defining valid children generators for$$\mathcal{G}_a$$.
 
 For $$a = 3n + 2, n \in \mathbb{N}$$
 
@@ -199,6 +203,8 @@ f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N}
 & = & n2^p + \frac{2^{p+1} - 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k, k \in \mathbb{N} \\
 \end{split}
 $$
+
+> **Conclusion** For $$a = 3n + 2, n \in \mathbb{N}$$, only values of $$p$$ of the form $$p = 2k + 1, k \in \mathbb{N}$$ are defining valid children generators for $$\mathcal{G}_a$$.
 
 
 
