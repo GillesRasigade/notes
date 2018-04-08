@@ -113,6 +113,15 @@ a, p, n \in \mathbb{N} & \implies & a = 1
 \end{split}
 $$
 
+### Children of a generator
+
+A generator $$\mathcal{G}_a$$ is having the following children by application of the reverse function of $$f$$:
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3}, p \in \mathbb{N} \\
+\end{split}
+$$
 
 
 ---
