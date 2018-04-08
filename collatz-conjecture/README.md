@@ -172,6 +172,11 @@ $$
 
 > **Conclusion** A generator of type $$\mathcal{G}_{3k}, k \in \mathbb{N}$$ does not have any children generator.
 
+We can **thus** simplify the problem. What are values of $$p$$ for $$a = 3 \left( n \pm 2 \right), n \in \mathbb{N}$$ leading to:
+
+$$
+\frac{a 2^p - 1}{3} \in \mathbb{N}
+$$
 
 ---
 
