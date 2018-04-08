@@ -220,6 +220,14 @@ Based on previous results, we can build the following array
 | $$11$$ | $$2048$$ ||$$...$$||$$...$$||$$...$$||$$...$$||||
 | $$12$$ | $$4096$$ |$$1365$$||$$...$$||$$...$$||$$...$$|||||
 
+Is there a relation between generators values for consecutive valid odd numbers for a given $$n$$ value?
+
+$$
+\begin{split}
+\delta & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3}
+\end{split} \\
+\end{split}
+$$
 
 ---
 
