@@ -233,8 +233,19 @@ $$
 
 > **Conclusion** In the array given above, the difference between 2 values on the same row is $$2^{n+1}, n \in \mathbb{N} $$.
 
+Can two different generators $$\mathcal{G}_b$$ and $$\mathcal{G}_c$$ have the same parent?
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS_0w5DdGkKzl8nc8ed4saQGhmjyqt6ohIQteiIF0Te4OLAwirT33-YuB5Vv1qn_hZPPzEHkieHsCVk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+$$
+\begin{split}
+\mathcal{G}_a & = & f( \mathcal{G}_b ) & = & f( \mathcal{G}_c ) \\
+& & 3 b 2^p +1 & = & 3 c 2^q + 1 \\
+& & b 2^p & = & c 2^q \\
+& & b & = & c 2^{q-p}
+\end{split}
+$$
+
+> **Conclusion** In both situation where $$q > p$$ or $$p > q$$, we have $$b \in \mathcal{G}_c$$ or $$c \in \mathcal{G}_b$$ leading to the conclusion than $$b = c$$.
+
 
 ---
 
