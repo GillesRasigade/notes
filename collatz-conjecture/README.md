@@ -256,6 +256,12 @@ $$
 n = \frac{2^{2p} \left( 1 + 6q \right) - 1}{3} \text{ where } p, q \in \mathbb{N} 
 $$
 
+or
+
+$$
+n = \frac{2^{2p + 1} \left( 5 + 6q \right) - 1}{3} \text{ where } p, q \in \mathbb{N} 
+$$
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
