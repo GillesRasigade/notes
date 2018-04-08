@@ -184,9 +184,23 @@ $$
 \begin{split}
 f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
 & = & \frac{3 n 2^p - 2^{p+1} - 1}{3} \\
-& = & n2^p - \frac{2^{p+1} + 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k, k \in \mathbb{N} \\
+& = & n2^p - \frac{2^{p+1} + 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k + 1, k \in \mathbb{N} \\
 \end{split}
 $$
+
+For $$a = 3n + 2, n \in \mathbb{N}$$
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 n 2^p + 2^{p+1} - 1}{3} \\
+& = & n2^p + \frac{2^{p+1} - 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k, k \in \mathbb{N} \\
+\end{split}
+$$
+
+
+
+
 
 ---
 
