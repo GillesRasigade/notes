@@ -133,9 +133,33 @@ $$
 
 What are the values of $$p$$?
 
+<!--
 | $$n$$ | $$2^n$$ | $$1$$ |$$3$$ | $$5$$ | $$7$$ | $$9$$ | $$11$$ | $$13$$ | $$15$$ | $$17$$ | $$19$$ |
-| :---: | --- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 |  $$0$$ | $$1$$ |||||||||||
+-->
+
+All odd numbers can be defined with the following form:
+
+$$
+a = 3 \left( n \pm 2 \right), n \in \mathbb{N^*}
+$$
+
+Leading to
+
+$$
+1, 3, 5 - 7, 9, 11 - 13, 15, 17 - 19, 21, 23 - 25, 27, 29 - ...
+$$
+
+Thus, what are accepted values of $$p$$ with the following form?
+
+$$
+\begin{split}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 \left( n \pm 2 \right) 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} 
+\end{split}
+
+$$
 
 ---
 
