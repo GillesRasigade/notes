@@ -262,6 +262,14 @@ $$
 n = \frac{2^{2p + 1} \left( 5 + 6q \right) - 1}{3} \text{ where } p, q \in \mathbb{N} 
 $$
 
+### Order relation between generators
+
+The following order between generators can be easily extracted from the array:
+
+$$
+1, 5, 13, 17, 11, 7, 37, 49, 65, 43, 229, 305, 203, 541, 721, 961, 5125, 6833, 4555, 6073, 32389
+$$
+
 ---
 
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
