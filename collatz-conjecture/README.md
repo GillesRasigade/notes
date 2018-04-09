@@ -222,7 +222,7 @@ Is there a relation between generators values for consecutive valid odd numbers 
 
 $$
 \begin{aligned}
-\delta & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3} \\
+\delta_h & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3} \\
 & = & \frac{6 \times 2^n}{3} \\
 & = & 2 \times 2^2 \\
 & = & 2^{n+1}
@@ -230,6 +230,19 @@ $$
 $$
 
 > **Conclusion** In the array given above, the difference between 2 values on the same row is $$2^{n+1}, n \in \mathbb{N} $$.
+
+Is there a relation between generators values for consecutive values power of $$2$$ for a given $$a$$ value?
+
+$$
+\begin{aligned}
+\delta_v & = & \frac{a 2^{2p+2} - 1}{3} - \frac{a 2^2p - 1}{3} \\
+& = & \frac{a 2^{2p} \left( 2^2 - 1 \right) - 1}{3} \\
+& = & \frac{3 a 2^{2p}}{3} \\
+& = & a 2^{2p}
+
+\end{aligned}
+
+$$
 
 <!--
 Can two different generators $$\mathcal{G}_b$$ and $$\mathcal{G}_c$$ have the same parent?
