@@ -108,7 +108,7 @@ Questions:
 $$
 \begin{aligned}
 f(\mathcal{G}_a) & = & \mathcal{G}_a & \in \mathbb{N}\\
-3 \times a 2^p + 1 & = & a 2^q & \implies q > p
+3 \times a 2^p + 1 & = & a 2^q
 \end{aligned}
 $$
 
