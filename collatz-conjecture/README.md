@@ -222,7 +222,7 @@ Is there a relation between generators values for consecutive valid odd numbers 
 
 $$
 \begin{aligned}
-\delta_h & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3} \\
+\delta^n_\rightarrow & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3} \\
 & = & \frac{6 \times 2^n}{3} \\
 & = & 2 \times 2^2 \\
 & = & 2^{n+1}
@@ -235,17 +235,11 @@ Is there a relation between generators values for consecutive values power of $$
 
 $$
 \begin{aligned}
-\delta_v & = & \frac{a 2^{n+2} - 1}{3} - \frac{a 2^n - 1}{3} \\
+\delta^n_a & = & \frac{a 2^{n+2} - 1}{3} - \frac{a 2^n - 1}{3} \\
 & = & \frac{a 2^n \left( 2^2 - 1 \right) - 1}{3} \\
 & = & \frac{3 a 2^n}{3} \\
-\delta_v & = & a 2^n
+\delta^n_a & = & a 2^n
 \end{aligned}
-$$
-
-Leading to:
-
-$$
-\boxed{\delta^n_a = a 2^n}
 $$
 
 <!--
