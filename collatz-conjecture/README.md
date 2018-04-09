@@ -108,7 +108,11 @@ Questions:
 $$
 \begin{aligned}
 f(\mathcal{G}_a) & = & \mathcal{G}_a & \in \mathbb{N}\\
-3 \times a 2^p + 1 & = & a 2^q
+3 \times a 2^p + 1 & = & a 2^q & => q > p\\
+a \left( 2^q - 3 \times 2^p \right) & = & 1\\
+a 2^p \left( 2^{q-p} - 3 \right) & = & 1\\
+a & = & \frac{1}{2^p \left( 2^{q-p} - 3 \right)}\\
+a, p, n \in \mathbb{N} & \implies & a = 1 &
 \end{aligned}
 $$
 
