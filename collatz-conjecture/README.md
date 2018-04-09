@@ -231,6 +231,7 @@ $$
 
 > **Conclusion** In the array given above, the difference between 2 values on the same row is $$2^{n+1}, n \in \mathbb{N} $$.
 
+<!--
 Can two different generators $$\mathcal{G}_b$$ and $$\mathcal{G}_c$$ have the same parent?
 
 $$
@@ -243,6 +244,7 @@ $$
 $$
 
 > **Conclusion** In both situation where $$q > p$$ or $$p > q$$, we have $$b \in \mathcal{G}_c$$ or $$c \in \mathcal{G}_b$$ leading to the conclusion than $$b = c$$.
+-->
 
 ### $$\mathbb{N}$$ mapped
 
