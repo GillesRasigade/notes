@@ -235,10 +235,10 @@ Is there a relation between generators values for consecutive values power of $$
 
 $$
 \begin{aligned}
-\delta_v & = & \frac{a 2^{2p+2} - 1}{3} - \frac{a 2^2p - 1}{3} \\
-& = & \frac{a 2^{2p} \left( 2^2 - 1 \right) - 1}{3} \\
-& = & \frac{3 a 2^{2p}}{3} \\
-& = & a 2^{2p}
+\delta_v & = & \frac{a 2^{n+2} - 1}{3} - \frac{a 2^n - 1}{3} \\
+& = & \frac{a 2^n \left( 2^2 - 1 \right) - 1}{3} \\
+& = & \frac{3 a 2^n}{3} \\
+& = & a 2^n
 
 \end{aligned}
 
