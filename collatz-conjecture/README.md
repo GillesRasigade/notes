@@ -67,10 +67,7 @@ Is the following relation truth?
 
 
 $$
-\begin{aligned}
-\forall b \in \mathbb{N}, \exists! a \in \mathbb{N} / \\
-f(\mathcal{G}_b) = \mathcal{G}_a
-\end{aligned}
+\forall b \in \mathbb{N}, \exists! a \in \mathbb{N} / f(\mathcal{G}_b) = \mathcal{G}_a
 $$
 
 
@@ -115,7 +112,7 @@ f(\mathcal{G}_a) & = & \mathcal{G}_a & \in \mathbb{N} \\
 a\left( 2^q - 3 \times 2^p \right) & = & 1 & \\
 a 2^p \left( 2^{q-p} - 3 \right) & = & 1 \\
 a & = & \frac{1}{2^p \left( 2^{q-p} - 3 \right)} \\
-a, p, n \in \mathbb{N} & \implies & a = 1
+a, p, n \in \mathbb{N} & \implies & a = 1 \\
 \end{aligned}
 $$
 
