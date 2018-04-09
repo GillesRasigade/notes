@@ -20,7 +20,6 @@ f(n) =
     \end{cases}
 $$
 
-
 The conjecture
 
 > This process will eventually reach the number 1, regardless of which positive integer is chosen initially.
@@ -31,10 +30,10 @@ Any function of the form:
 
 
 $$
-\begin{split}
+\begin{aligned}
 \mathcal{G} :\ & \mathbb{N} \rightarrow \mathbb{N}\\
    & a \rightarrow a \times 2^p ,p \in \mathbb{N}
-\end{split}
+\end{aligned}
 $$
 
 
