@@ -124,9 +124,9 @@ A generator $$\mathcal{G}_a$$ is having the following children by application of
 
 
 $$
-\begin{split}
+\begin{aligned}
 f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
-\end{split}
+\end{aligned}
 $$
 
 
@@ -153,20 +153,20 @@ $$
 Thus, what are accepted values of $$p$$ with the following form?
 
 $$
-\begin{split}
-f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
-& = & \frac{3 \left( n \pm 0,2 \right) 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} 
-\end{split}
+\begin{aligned}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} & \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 \left( n \pm 0,2 \right) 2^p - 1}{3} & \in\mathbb{N}, \forall n \in \mathbb{N} 
+\end{aligned}
 $$
 
 For $$a = 3n, n \in \mathbb{N}$$
 
 $$
-\begin{split}
-f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
-& = & \frac{3 n 2^p - 1}{3} \in\mathbb{N}, \forall n \in \mathbb{N} \\
-& = & n2^p - \frac{1}{3} \not\in \mathbb{N}, \forall n, p \in \mathbb{N}
-\end{split}
+\begin{aligned}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} & \in \mathbb{N}, p \in \mathbb{N} \\
+& = & \frac{3 n 2^p - 1}{3} & \in \mathbb{N}, \forall n \in \mathbb{N} \\
+& = & n2^p - \frac{1}{3} & \not \in \mathbb{N}, \forall n, p \in \mathbb{N}
+\end{aligned}
 $$
 
 > **Conclusion** A generator of type $$\mathcal{G}_{3k}, k \in \mathbb{N}$$ does not have any children generator.
@@ -180,11 +180,11 @@ $$
 For $$a = 3n - 2, n \in \mathbb{N}$$
 
 $$
-\begin{split}
-f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+\begin{aligned}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} & \in \mathbb{N}, p \in \mathbb{N} \\
 & = & \frac{3 n 2^p - 2^{p+1} - 1}{3} \\
-& = & n2^p - \frac{2^{p+1} + 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k + 1, k \in \mathbb{N} \\
-\end{split}
+& = & n2^p - \frac{2^{p+1} + 1}{3} & \in \mathbb{N} \text{ if } p+1 \equiv 2k + 1, k \in \mathbb{N} \\
+\end{aligned}
 $$
 
 > **Conclusion** For $$a = 3n - 2, n \in \mathbb{N}$$, only values of $$p$$ of the form $$p = 2k, k \in \mathbb{N}$$ are defining valid children generators for$$\mathcal{G}_a$$.
@@ -192,11 +192,11 @@ $$
 For $$a = 3n + 2, n \in \mathbb{N}$$
 
 $$
-\begin{split}
-f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} \in \mathbb{N}, p \in \mathbb{N} \\
+\begin{aligned}
+f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} & \in \mathbb{N}, p \in \mathbb{N} \\
 & = & \frac{3 n 2^p + 2^{p+1} - 1}{3} \\
-& = & n2^p + \frac{2^{p+1} - 1}{3} \in \mathbb{N} \text{ if } p+1 \equiv 2k, k \in \mathbb{N} \\
-\end{split}
+& = & n2^p + \frac{2^{p+1} - 1}{3} & \in \mathbb{N} \text{ if } p+1 \equiv 2k, k \in \mathbb{N} \\
+\end{aligned}
 $$
 
 > **Conclusion** For $$a = 3n + 2, n \in \mathbb{N}$$, only values of $$p$$ of the form $$p = 2k + 1, k \in \mathbb{N}$$ are defining valid children generators for $$\mathcal{G}_a$$.
@@ -222,12 +222,12 @@ Based on previous results, we can build the following array
 Is there a relation between generators values for consecutive valid odd numbers for a given $$n$$ value?
 
 $$
-\begin{split}
+\begin{aligned}
 \delta & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3} \\
 & = & \frac{6 \times 2^n}{3} \\
 & = & 2 \times 2^2 \\
 & = & 2^{n+1}
-\end{split}
+\end{aligned}
 $$
 
 > **Conclusion** In the array given above, the difference between 2 values on the same row is $$2^{n+1}, n \in \mathbb{N} $$.
@@ -235,12 +235,12 @@ $$
 Can two different generators $$\mathcal{G}_b$$ and $$\mathcal{G}_c$$ have the same parent?
 
 $$
-\begin{split}
+\begin{aligned}
 \mathcal{G}_a & = & f( \mathcal{G}_b ) & = & f( \mathcal{G}_c ) \\
 & & 3 b 2^p +1 & = & 3 c 2^q + 1 \\
 & & b 2^p & = & c 2^q \\
 & & b & = & c 2^{q-p}
-\end{split}
+\end{aligned}
 $$
 
 > **Conclusion** In both situation where $$q > p$$ or $$p > q$$, we have $$b \in \mathcal{G}_c$$ or $$c \in \mathcal{G}_b$$ leading to the conclusion than $$b = c$$.
