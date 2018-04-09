@@ -164,7 +164,7 @@ $$
 \begin{aligned}
 f^{-1}(\mathcal{G}_a) & = & \frac{a 2^p - 1}{3} & \in \mathbb{N}, p \in \mathbb{N} \\
 & = & \frac{3 n 2^p - 1}{3} & \in \mathbb{N}, \forall n \in \mathbb{N} \\
-& = & n2^p - \frac{1}{3} & \not \in \mathbb{N}, \forall n, p \in \mathbb{N}
+& = & n2^p - \frac{1}{3} & \notin \mathbb{N}, \forall n, p \in \mathbb{N}
 \end{aligned}
 $$
 
