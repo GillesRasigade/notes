@@ -67,8 +67,10 @@ Is the following relation truth?
 
 
 $$
+\begin{aligned}
 \forall b \in \mathbb{N}, \exists! a \in \mathbb{N} / \\
 f(\mathcal{G}_b) = \mathcal{G}_a
+\end{aligned}
 $$
 
 
@@ -278,10 +280,12 @@ $$
 or
 
 $$
+\begin{aligned}
 f(\mathcal{G}_5) = \mathcal{G}_1 \\
 f^2(\mathcal{G}_{13}) = \mathcal{G}_1 \\
 f^3(\mathcal{G}_{17} = \mathcal{G}_1 \\
 ...
+\end{aligned}
 $$
 
 ---
