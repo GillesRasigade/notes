@@ -225,7 +225,7 @@ $$
 \delta^n_\rightarrow & = & \frac{\left( b + 6 \right) 2^n - 1}{3} - \frac{b 2^n - 1}{3} \\
 & = & \frac{6 \times 2^n}{3} \\
 & = & 2 \times 2^2 \\
-& = & 2^{n+1}
+\delta^n_\rightarrow & = & 2^{n+1}
 \end{aligned}
 $$
 
