@@ -235,7 +235,7 @@ Is there a relation between generators values for consecutive values power of $$
 
 $$
 \begin{aligned}
-\delta^n_a & = & \frac{a 2^{n+2} - 1}{3} - \frac{a 2^n - 1}{3} \\
+\delta^n_{a, \downarrow} & = & \frac{a 2^{n+2} - 1}{3} - \frac{a 2^n - 1}{3} \\
 & = & \frac{a 2^n \left( 2^2 - 1 \right) - 1}{3} \\
 & = & \frac{3 a 2^n}{3} \\
 \delta^n_{a, \downarrow} & = & a 2^n
