@@ -238,10 +238,14 @@ $$
 \delta_v & = & \frac{a 2^{n+2} - 1}{3} - \frac{a 2^n - 1}{3} \\
 & = & \frac{a 2^n \left( 2^2 - 1 \right) - 1}{3} \\
 & = & \frac{3 a 2^n}{3} \\
-& = & a 2^n
-
+\delta_v & = & a 2^n
 \end{aligned}
+$$
 
+Leading to:
+
+$$
+\boxed{\delta^n_a = a 2^n}
 $$
 
 <!--
