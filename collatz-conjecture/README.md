@@ -2,12 +2,16 @@
 
 This very first article [^1] is interesting.
 
+$$
+f^{-n}(a) = \frac{1}{3^n} \left( a 2^{\sum_{i=0}^n p_i} - \sum_{i=1}^n 3^{i-1} 2^{\sum_{j=i+1}^n} p_j \right)
+$$
 
+<!--
 $$
 b_{a}^{p} = \frac{1}{3^p}(b_{a}^{0}\times2^{\sum_{i=0}^{p}n_{i}}-\sum_{i=0}^{p} 3^
 {p-i}\times2^{\sum_{j=1}^{i-1}n_{j}})
 $$
-
+-->
 
 ## The problem
 
