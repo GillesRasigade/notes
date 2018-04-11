@@ -2,6 +2,8 @@
 
 This very first article [^1] is interesting.
 
+The following formula is obtained by applying $$n$$ times the reverse function $$f$$ to a number $$a \in \mathbb{N}$$:
+
 $$
 f^{-n}(a) = \frac{1}{3^n} \left( a 2^{\sum\limits_{i=0}^n p_i} - \sum\limits_{i=1}^n 3^{i-1} 2^{\sum\limits_{j=i+1}^n} p_j \right)
 $$
