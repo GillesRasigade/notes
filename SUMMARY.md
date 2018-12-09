@@ -1,8 +1,9 @@
-# Summary
+# Table of contents
 
-* [README](README.md)
+* [Overview](README.md)
+* [Bibliography](bibliography.md)
 
-## Collatz Conjecture
+## Appendices
 
-* [Notes](./collatz-conjecture/README.md)
+* [Drafts](appendices/drafts.md)
 
